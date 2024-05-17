@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "wow-profession-leveler"
+version = "0.1.0"
+description = "Backend for the WoW Classic Profession Leveler"
+authors = ["Ryan Davis <ryancraigdavis@github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "src/wow_profession_leveler", from = "." }
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+quart = "^0.19.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
