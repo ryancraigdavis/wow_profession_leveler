@@ -1,0 +1,538 @@
+[
+  {
+    "class_id": 0,
+    "name": "Consumable",
+    "item_subclasses": [
+      {
+        "name": "Consumable",
+        "id": 0
+      },
+      {
+        "name": "Potion",
+        "id": 1
+      },
+      {
+        "name": "Elixir",
+        "id": 2
+      },
+      {
+        "name": "Flask",
+        "id": 3
+      },
+      {
+        "name": "Scroll",
+        "id": 4
+      },
+      {
+        "name": "Food & Drink",
+        "id": 5
+      },
+      {
+        "name": "Item Enhancement",
+        "id": 6
+      },
+      {
+        "name": "Bandage",
+        "id": 7
+      },
+      {
+        "name": "Other",
+        "id": 8
+      }
+    ]
+  },
+  {
+    "class_id": 1,
+    "name": "Container",
+    "item_subclasses": [
+      {
+        "name": "Bag",
+        "id": 0
+      },
+      {
+        "name": "Soul Bag",
+        "id": 1
+      },
+      {
+        "name": "Herb Bag",
+        "id": 2
+      },
+      {
+        "name": "Enchanting Bag",
+        "id": 3
+      },
+      {
+        "name": "Engineering Bag",
+        "id": 4
+      },
+      {
+        "name": "Gem Bag",
+        "id": 5
+      },
+      {
+        "name": "Mining Bag",
+        "id": 6
+      },
+      {
+        "name": "Leatherworking Bag",
+        "id": 7
+      },
+      {
+        "name": "Inscription Bag",
+        "id": 8
+      },
+      {
+        "name": "Tackle Box",
+        "id": 9
+      }
+    ]
+  },
+  {
+    "class_id": 2,
+    "name": "Weapon",
+    "item_subclasses": [
+      {
+        "name": "Axe",
+        "id": 0
+      },
+      {
+        "name": "Axe",
+        "id": 1
+      },
+      {
+        "name": "Bow",
+        "id": 2
+      },
+      {
+        "name": "Gun",
+        "id": 3
+      },
+      {
+        "name": "Mace",
+        "id": 4
+      },
+      {
+        "name": "Mace",
+        "id": 5
+      },
+      {
+        "name": "Polearm",
+        "id": 6
+      },
+      {
+        "name": "Sword",
+        "id": 7
+      },
+      {
+        "name": "Sword",
+        "id": 8
+      },
+      {
+        "name": "Staff",
+        "id": 10
+      },
+      {
+        "name": "Exotic",
+        "id": 11
+      },
+      {
+        "name": "Exotic",
+        "id": 12
+      },
+      {
+        "name": "Fist Weapon",
+        "id": 13
+      },
+      {
+        "name": "Miscellaneous",
+        "id": 14
+      },
+      {
+        "name": "Dagger",
+        "id": 15
+      },
+      {
+        "name": "Thrown",
+        "id": 16
+      },
+      {
+        "name": "Spear",
+        "id": 17
+      },
+      {
+        "name": "Crossbow",
+        "id": 18
+      },
+      {
+        "name": "Wand",
+        "id": 19
+      },
+      {
+        "name": "Fishing Pole",
+        "id": 20
+      }
+    ]
+  },
+  {
+    "class_id": 3,
+    "name": "Gem",
+    "item_subclasses": [
+      {
+        "name": "Red",
+        "id": 0
+      },
+      {
+        "name": "Blue",
+        "id": 1
+      },
+      {
+        "name": "Yellow",
+        "id": 2
+      },
+      {
+        "name": "Purple",
+        "id": 3
+      },
+      {
+        "name": "Green",
+        "id": 4
+      },
+      {
+        "name": "Orange",
+        "id": 5
+      },
+      {
+        "name": "Meta",
+        "id": 6
+      },
+      {
+        "name": "Simple",
+        "id": 7
+      },
+      {
+        "name": "Prismatic",
+        "id": 8
+      },
+      {
+        "name": "Hydraulic",
+        "id": 9
+      },
+      {
+        "name": "Cogwheel",
+        "id": 10
+      }
+    ]
+  },
+  {
+    "class_id": 4,
+    "name": "Armor",
+    "item_subclasses": [
+      {
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      {
+        "name": "Cloth",
+        "id": 1
+      },
+      {
+        "name": "Leather",
+        "id": 2
+      },
+      {
+        "name": "Mail",
+        "id": 3
+      },
+      {
+        "name": "Plate",
+        "id": 4
+      },
+      {
+        "name": "Shield",
+        "id": 6
+      },
+      {
+        "name": "Libram",
+        "id": 7
+      },
+      {
+        "name": "Idol",
+        "id": 8
+      },
+      {
+        "name": "Totem",
+        "id": 9
+      },
+      {
+        "name": "Sigil",
+        "id": 10
+      },
+      {
+        "name": "Relic",
+        "id": 11
+      }
+    ]
+  },
+  {
+    "class_id": 5,
+    "name": "Reagent",
+    "item_subclasses": [
+      {
+        "name": "Reagent",
+        "id": 0
+      }
+    ]
+  },
+  {
+    "class_id": 6,
+    "name": "Projectile",
+    "item_subclasses": [
+      {
+        "name": "Arrow",
+        "id": 2
+      },
+      {
+        "name": "Bullet",
+        "id": 3
+      }
+    ]
+  },
+  {
+    "class_id": 7,
+    "name": "Trade Goods",
+    "item_subclasses": [
+      {
+        "name": "Trade Goods",
+        "id": 0
+      },
+      {
+        "name": "Parts",
+        "id": 1
+      },
+      {
+        "name": "Explosives",
+        "id": 2
+      },
+      {
+        "name": "Devices",
+        "id": 3
+      },
+      {
+        "name": "Jewelcrafting",
+        "id": 4
+      },
+      {
+        "name": "Cloth",
+        "id": 5
+      },
+      {
+        "name": "Leather",
+        "id": 6
+      },
+      {
+        "name": "Metal & Stone",
+        "id": 7
+      },
+      {
+        "name": "Meat",
+        "id": 8
+      },
+      {
+        "name": "Herb",
+        "id": 9
+      },
+      {
+        "name": "Elemental",
+        "id": 10
+      },
+      {
+        "name": "Other",
+        "id": 11
+      },
+      {
+        "name": "Enchanting",
+        "id": 12
+      },
+      {
+        "name": "Materials",
+        "id": 13
+      },
+      {
+        "name": "Item Enchantment",
+        "id": 14
+      }
+    ]
+  },
+  {
+    "class_id": 9,
+    "name": "Recipe",
+    "item_subclasses": [
+      {
+        "name": "Book",
+        "id": 0
+      },
+      {
+        "name": "Leatherworking",
+        "id": 1
+      },
+      {
+        "name": "Tailoring",
+        "id": 2
+      },
+      {
+        "name": "Engineering",
+        "id": 3
+      },
+      {
+        "name": "Blacksmithing",
+        "id": 4
+      },
+      {
+        "name": "Cooking",
+        "id": 5
+      },
+      {
+        "name": "Alchemy",
+        "id": 6
+      },
+      {
+        "name": "First Aid",
+        "id": 7
+      },
+      {
+        "name": "Enchanting",
+        "id": 8
+      },
+      {
+        "name": "Fishing",
+        "id": 9
+      },
+      {
+        "name": "Jewelcrafting",
+        "id": 10
+      },
+      {
+        "name": "Inscription",
+        "id": 11
+      }
+    ]
+  },
+  {
+    "class_id": 11,
+    "name": "Quiver",
+    "item_subclasses": [
+      {
+        "name": "Quiver",
+        "id": 2
+      },
+      {
+        "name": "Ammo Pouch",
+        "id": 3
+      }
+    ]
+  },
+  {
+    "class_id": 12,
+    "name": "Quest",
+    "item_subclasses": [
+      {
+        "name": "Quest",
+        "id": 0
+      }
+    ]
+  },
+  {
+    "class_id": 13,
+    "name": "Key",
+    "item_subclasses": [
+      {
+        "name": "Key",
+        "id": 0
+      },
+      {
+        "name": "Lockpick",
+        "id": 1
+      }
+    ]
+  },
+  {
+    "class_id": 15,
+    "name": "Miscellaneous",
+    "item_subclasses": [
+      {
+        "name": "Junk",
+        "id": 0
+      },
+      {
+        "name": "Reagent",
+        "id": 1
+      },
+      {
+        "name": "Pet",
+        "id": 2
+      },
+      {
+        "name": "Holiday",
+        "id": 3
+      },
+      {
+        "name": "Other",
+        "id": 4
+      },
+      {
+        "name": "Mount",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "class_id": 18,
+    "name": "WoW Token"
+  },
+  {
+    "class_id": 16,
+    "name": "Glyph",
+    "item_subclasses": [
+      {
+        "name": "Warrior",
+        "id": 1
+      },
+      {
+        "name": "Paladin",
+        "id": 2
+      },
+      {
+        "name": "Hunter",
+        "id": 3
+      },
+      {
+        "name": "Rogue",
+        "id": 4
+      },
+      {
+        "name": "Priest",
+        "id": 5
+      },
+      {
+        "name": "Shaman",
+        "id": 7
+      },
+      {
+        "name": "Mage",
+        "id": 8
+      },
+      {
+        "name": "Warlock",
+        "id": 9
+      },
+      {
+        "name": "Druid",
+        "id": 11
+      },
+      {
+        "name": "Death Knight",
+        "id": 6
+      }
+    ]
+  }
+]
